@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notificationBellButton"
+        android:icon="@drawable/ic_bell_inactive"
+        android:orderInCategory="1"
+        android:title="Notifications"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/settingsButton"
+        android:icon="@drawable/ic_settings_gear"
+        android:orderInCategory="2"
+        android:title="Profile"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/logoutButton"
+        android:icon="@drawable/ic_tpa2_logout"
+        android:orderInCategory="3"
+        android:title="Logout"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Parkside App</string>
+    <string name="university_name">UW-Parkside</string>
+
+    <!-- Component Names -->
+
+    <string name="map">"Map"</string>
+    <string name="rangerWellness">"Ranger Wellness"</string>
+    <string name="news">"News"</string>
+    <string name="navigate">"Navigate"</string>
+    <string name="events">"Events"</string>
+    <string name="eAccounts">"eAccounts"</string>
+    <string name="computerLabs">"Computer Labs"</string>
+    <string name="titleIX">"Title IX"</string>
+    <string name="indoorNav">"IndoorNav"</string>
+
+    <!-- Channel Names that are not included in "Component Names" or "Navigation Items" -->
+    <string name="student">"Student"</string>
+    <string name="staff">"Staff"</string>
+
+    <!-- Channel Id's -->
+    <string name="wellnessId">"wellness"</string>
+    <string name="eventsId">"events"</string>
+    <string name="navigateId">"navigate"</string>
+    <string name="eaccountsId">"eaccounts"</string>
+    <string name="newsId">"news"</string>
+    <string name="mapId">"map"</string>
+    <string name="computerId">"computer"</string>
+    <string name="menuId">"menu"</string>
+    <string name="studentId">"student"</string>
+    <string name="staffId">"staff"</string>
+
+
+
+
+    <!--API URL-->
+    <string name="event_url">"https://www.uwp.edu/customcf/xml/getevents.cfm"</string>
+    <string name="news_url">https://www.uwp.edu/customcf/xml/getnews.cfm</string>
+    <string name="Home">Home</string>
+
+
+    <!--Navigation Items-->
+    <string name="News">News</string>
+    <string name="Map"> Campus Map</string>
+    <string name="Event">Events</string>
+    <string name="Canvas">Canvas</string>
+    <string name="Lab">Computer Lab</string>
+    <string name="d2l">Desire2Learn</string>
+    <string name="Library">Library</string>
+    <string name="Athletes">Athletes</string>
+    <string name="Radio">Radio</string>
+    <string name="Settings">Settings</string>
+    <string name="About">About</string>
+    <string name="menu">Menu</string>
+
+    <string name="HomePhase1">Gatherings\n\n- Gatherings limited to no more than 10 people.  Flexibility will be allowed for larger venues that can accommodate proper social distancing. Room capacity is based on room size and current social distancing guidelines.\n\nFace Coverings\n\n- Face coverings are required to be worn in all public areas.\n\nSocial Distancing\n\n- At least 6-feet of separation should be maintained between individuals.\n\nCampus Access\n\n- Access to the main complex will only be allowed thru the Rita main entrance by using the ID card swipe. All other entrances will remain locked. Students requiring access will need to seek approval in order to get their names added to the ID swipe system.\n\nVisitors on Campus (excludes students)\n\n- Generally, visitors will not be allowed on campus. If need be, the visitor will need to be pre-approved. Visitors are required to check in to the Police Department. No congregating in waiting rooms or lobbies.Maintain visitor log for tracing efforts.\n\nVulnerable Populations\n\n- Avoid physical interactions with high-risk individuals as much as possible. Employer may ask questions to determine whether an employee needs an accommodation. Explore alternative accommodations that may allow the employee to perform the essential functions of the position.\n\nTesting\n\n- Testing for COVID-19 required for any known case or known contact (anybody at the University who spent at least 15 minutes within 6 feet of the case) be quarantined and tested.\n\nStaffing\n\n- Encourage employees to continue to work remotely. Departments should maintain only minimal staffing on campus to perform essential functions and provide essential support for students. Encourage flexible working arrangements such as rotating shifts. Departments should consider operating with no more than 50% of normal staffing levels at any one time.\n\nCommon Spaces\n\n- Regularly disinfect high-touch areas (e.g., door handles, buttons/switches, handrails, check-out counters, restroom surfaces, etc.). Do not congregate. Provide hand sanitizer for individuals at entrance and exit.\n\nOffices\n\n- Regularly disinfect high-touch areas (e.g., door handles, buttons/switches, handrails, check-out counters, restroom surfaces, etc.). Do not congregate.</string>
+    <string name="ClassCondP1">- Online instruction with limited exceptions approved by the Dean and/or designee based upon the ability to maintain safety for students, staff, and faculty.\n\n- If in-person classes are held, room capacity is based on room size and current social distancing guidelines\n\n- If in-person classes are held, at least 6-feet of separation should be maintained between individuals.\n\n- Face coverings must be worn in all classrooms\n\n- Daily deep cleaning by custodial staff.\n\n- Cleaning supplies will be available to self-clean surfaces as needed (ex: as you enter the class).\n\n- Attendance taking is required to facilitate contact tracing should the need arise.</string>
+    <string name="AthleticsP1">Athletic Events\n\n- Athletic Events have been canceled for the remainder of the academic year.\n\nAthletic Events/External Rentals\n\n- Low Risk activities including but not limited to tennis, pickle ball, and disc golf may resume. Athletic Events and external rentals have been canceled until further notice. Gatherings limited to no more than 10 people. Flexibility will be allowed for larger venue that can accommodate proper social distancing. Room capacity is based on room size and current social distancing guidelines.\n\nWood Road Field\n\n- Closed to all events until further notice.\n\nSoccer Fields\n\n- Closed to all events until further notice.\n\nCase Softball Complex/Red Oberbrunner Field\n\n- Closed to all events until further notice.\n\nWayne E Dannehl National Cross Country Course/ Outdoor Track\n\n- Closed to all events until further notice. Outdoor Track Closed to all events until further notice. Runners/Hikers must practice social distancing.\n\nSAC Offices\n\n- At least 6-feet of separation should be maintained between individuals. Regularly disinfect high-touch areas.\n\nDe Simone Gym\n\n- Closed to all events until further notice.\n\nPetretti Fieldhouse\n\n- Open at limited capacity only for team/athlete use based on NCAA/GLIAC/State/Local recommendations. Closed to all events until further notice.\n\nStrength &amp; Conditioning/Wellness Centers\n\n- Open at &#189; capacity and occupants must practice social distancing Staff cleans surfaces after every use.Employees screened daily and wear masks.\n\nAthletic Training Room\n\n- Open for 1 on 1 treatments by appointment only.Facility is cleaned and disinfected after each use. Athletic Training staff and students should wear face coverings.</string>
+    <string name="FoodServP1">- Order/take-and-go options only, limited hours service available at Brickstone Grill &amp; Eatery only, all other dining facilities closed.\n\n- No catering events allowed.\n\n- Symptom checking of employees.\n\n- Staff wear face coverings.\n\n- No self-service buffet, meals plated and dropped at central pick up area, utensils distributed individually with food.\n\n- Stagger workstations so workers can maintain a 6 ft. distance and do not face one another.\n\n- UW-Parkside payment system is largely touchless and cashless. Associates that do operate a POS regularly sanitize the workstation and their hands between handling cards and cash. Plexiglas shield will be installed at POS stations.\n\n- Staff must sanitize hands between handling payment options and food/containers.\n\n- UW Parkside dining services will provide pre order and take-and-go only following Kenosha County Health Department regulations and CDC guidelines.</string>
+    <string name="CommEveP1">- All events held on campus are canceled until further notice.\n\n- Gatherings limited to no more than 10 people. Flexibility will be allowed for larger venue that can accommodate proper social distancing. Room capacity is based on room size and current social distancing guidelines.\n\n- General public and employers take extreme caution.\n\n- May provide accommodations to high-risk employees.\n\n- Minimize face-to-face interactions with others (e.g., install partitions, etc.)\n\n- High-contact businesses can operate under strict protocols.\n\n- Self monitor symptoms before any business interactions.\n\n- Certification must be displayed to the public.</string>
+    <string name="FacManP1">- All staff who can work remotely should continue to do so.\n\n- No groups larger than 10. Meals, breaks and meetings should be staggered to allow for social distancing.\n\n- No more than 2 employees working in one area at a time, unless needed for safety reasons.\n\n- Shared tools should be sanitized after use.\n\n- Employees should regularly sanitize high-touch areas of campus.\n\n- Employees should sanitize vehicle/equipment door handles, steering wheel, and other areas touched, when returning a vehicle for others to use.\n\n- Increase building ventilation rates.\n\n- Increase outside air percentage that circulates.\n\nCampus Project Contractors/Consultants\n\n- Contractors working on campus construction projects are responsible for adhering to CDC guidelines relative to reporting and responding to suspected COVID-19 cases.\n\nState Project Contractors/Consultants\n\n- Contractors working on State construction projects are responsible for adhering to guidelines provided by the Department of Administration, Division of Facilities Development and Management.</string>
+    <string name="FacOffHrsP1">- Virtual meetings for student meetings recommended.\n\n- In-person meetings should be limited to one student per meeting.\n\n- It is recommended that faculty clean touch-point surfaces following each meeting.</string>
+    <string name="InternshipsP1">- Remote internships that students may complete from home are preferred.\n\n- Internships that comply with the prevailing governmental guidelines of the location of the internship site may be completed in part or wholly on-site.\n\n- Internship course instructors: Are encouraged to be flexible in the required number of hours to be completed on-site, allowing for remote work and other assignments to be completed to meet credit expectations. Alternative work should be aligned with learning goals for the internship. Students who are in a vulnerable or at-risk group or are involved in the personal care for someone in this category should be allowed an alternative educational experience to meet program requirements. Internship instructors should coordinate with internship student and internship site on ways to adjust internship if necessary. Internship academic instructors may consult with the Community and Business Engagement Office for additional guidance.</string>
+    <string name="LabsP1">- Only research activities approved by the Dean and/or designee permitted based upon the ability to maintain safety for students, staff, and faculty.\n\n- Lab capacity will be based on a minimum of 350 square feet per occupant.\n\n- Surface cleaning conducted following each laboratory activity.</string>
+    <string name="StuHealthP1">Student Health, Counseling and Disability: Patient Considerations\n\n- Advise patients to make online appointments or call before coming to the SHS for nursing or provider visits.\n\n- Develop processes to limit student contact with SHS computers/keypads. Have students complete and submit forms (health history, immunizations, consents, etc.) in the patient portal or utilize EMR templates.\n\n- Continue to utilize telemedicine visits and provide students with options for telemedicine or telephone consults when appropriate. In particular, students with conditions placing them at higher risk for complications from COVID-19 should be encouraged to seek care via telemedicine.\n\n- Develop an online or telephone process for patient check-in, if possible.\n\n- Update triage protocols incorporating telehealth options.\n\n- Update screening forms to include chills, repeated shaking with chills, muscle pain, headache, sore throat, anosmia, dysgeusia, and any other COVID-19 symptoms.\n\n- Screen all patients for respiratory symptoms and check temperature (ideally with infrared or laser devices) before entering the clinic.\n\n- Develop protocols for managing patients with acute respiratory symptoms that include masking the patient, quickly rooming the patient, limiting and tracking the number of staff who enter the room, limiting the movement of the patient throughout the SHS, and cleaning of spaces where the patient was present.\n\n- Avoid use of nebulizers and peak flow measurements which can generate additional aerosols.\n\n- Require all patients to wear face masks (or cloth face coverings if adequate face masks are not available).\n\n- Prohibit visitors, children, or accompanying guests who are not receiving care or services from entering the facility.\n\n- Develop relationship and agreement with local emergency departments (ED) to accept ill patients requiring a higher level of care.\n\n- Develop a plan for students with respiratory symptoms who need transportation to SHS, housing, or local hospitals.\n\n- Develop a communications plan involving the campus communications office, outlining key messages such as how to access care and schedule appointments and which visits should be in person versus virtual. Use a variety of platforms including websites, social media, and signage. Involve as many campus entities as possible in communicating these messages (housing, dining, recreation, etc.).\n\nStudent Health, Counseling and Disability: Facility Considerations\n\n- Make all efforts to segregate waiting areas for ill and well patient visits. If separate waiting rooms are not available, consider placing a tent outside or identifying a satellite space for patients with respiratory symptoms. Deploy signage providing clear guidance on how to proceed.\n\n- Reconfigure all waiting and other clinic areas to promote physical distancing.\n\n- Implement signage throughout the SHS communicating reasons for physical distancing.\n\n- Ensure adequate alcohol-based (at least 60%) hand sanitizer, face masks (or coverings if masks are not available), tissues, and closed bins for disposal are available.\n\n- Provide Plexiglas/clear barriers between reception staff and waiting areas.\n\n- Develop protocols for environmental management including clinic cleaning and decontamination.\n</string>
+    <string name="TBAPhase">We are tracking metrics in surrounding counties to determine when we will move to Phases 2 and 3.</string>
+
+
+    <!--Menu Items -->
+    <string name="open_route_api">58d904a497c67e00015b45fc8e14b676f5ad4f9d8bf19bf842c812fa</string>
+
+
+    <!--Open Route API-->
+    <string name="RADIO_STREAM_URL">http://wipz.uwp.edu:8000/stream.mp3</string>
+
+    <!--WIPZ RADIO-->
+    <string name="radio_id">WIPZ UW-Parkside Radio</string>
+    <string name="about_title">APP FACTORY</string>
+
+    <!-- About App Factory -->
+    <string name="about_body1">We provide conceptual designing and prototype mobile app development services to help find solutions and strategies for technology challenges.
+    </string>
+    <string name="about_body2">Graduate and undergraduate students, along with faculty from computer science, business, art, and other disciplines, collaborate to create these apps in a “startup company” environment. Students gain real world experience working with clients and working on live projects as part of internships or course credit.</string>
+    <string name="about_body3">The financial donations allow us to develop projects for nonprofit organizations that would normally not be able to afford a mobile app. Our student interns are paid through financial donations of clients and donors. (Include “App Factory” in the Donation Information section.)</string>
+    <string name="about_learn_more">Learn more about App Factory at <a href="http://appfactoryuwp.com">appfactoryuwp.com</a></string>
+    <string name="uw_parkside_logo_content_description">UW Parkside Logo</string>
+
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <!-- Strings related to login -->
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too weak</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_registration_failed">Registration failed. Be sure to enter a valid email</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="welcome">Welcome</string>
+    <string name="register">Register</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="privacyPolicyTosBlock">By registering to use this app, you agree to our Privacy Policy and Terms of Service.</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="title_home">Home</string>
+
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="daily_steps">Daily Steps</string>
+    <string name="current_goal">Current Goal</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="subscribe_events">Subscribed Events</string>
+    <string name="AUTH_TOKEN">authToken</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- RW STRINGS -->
+    <string name="previous_steps">Previously logged steps (by date)</string>
+    <string name="ranger_wellness">Ranger Wellness</string>
+
+    <!-- Password Reset -->
+    <string name="reset_password">Password Reset</string>
+    <string name="send_email">Send Email</string>
+    <string name="back">Back</string>
+    <string name="reset_pw">Reset Password</string>
+    <string name="navigate_app_title">Navigate</string>
+    <string name="eAccounts_app">eAccounts</string>
+    <string name="default_notification_channel_id">UW-P Notification</string>
+    <string name="default_notification_channel_name">All</string>
+    <string name="emailEditTextHint">UWP Email</string>
+    <string name="forgotPasswordTextView">Forgot password?</string>
+    <string name="welcomeRangerTextBiew">Welcome Ranger!</string>
+    <string name="noAccountTextView">Don\'t have an account?</string>
+    <string name="passwordEditText">Password</string>
+    <string name="confirmPasswordEditText">Confirm password</string>
+    <string name="signUpTextView">Sign Up</string>
+    <string name="loginTextButton">Login</string>
+    <string name="signUpTextButton">Sign Up</string>
+    <string name="restPasswordTextButton">Rest Password</string>
+    <string name="rr_view_all_textview"><u>View All</u></string>
+    <string name="current_phase_one">#c7602c</string>
+
+    <string name="uwpLink">UW-Parkside\'s website</string>
+    <string name="cdc_website">The CDC website</string>
+    <string name="wdhs_link">Wisconsin Department of Health Services</string>
+    <string name="kcdh_link">Kenosha County Division of Health</string>
+    <string name="ken_resp_link">Kenosha COVID-19 Response</string>
+    <string name="kch_link">Kenosha County Health</string>
+    <string name="rc_resp_link">Racine County COVID-19</string>
+    <string name="crchd_link">Central Racine County Health Department</string>
+    <string name="rr_close_drawer">Close Navigation</string>
+    <string name="rr_open_navigation">Open Navigation</string>
+    <string name="open_side_panel_toggle">Open Side Panel</string>
+    <string name="close_side_panel_toggle">Close Side Panel</string>
+    <string name="loadingTextResource">Loading...</string>
+    <string name="good_result_text">\t• Wash your hands with soap and water or use alcohol sanitizer before starting work and frequently throughout the day.\n\t• Practice social distancing- sit and/or stand at least 6 feet from other people, do not shake hands or hug people, and do not share food or drinks.\n\t• Sanitize your work area frequently or at least daily.\n\t• Avoid touching your face. If you start to feel feverish or have respiratory symptoms, take the appropriate actions to either leave work and contact your healthcare provider immediately.\n\t• Wear a face covering or mask when around others.</string>
+    <string name="bad_result_text_stu">Please call Student Health and Counseling Center at 262–595–2366 to schedule an appointment with a healthcare provider to determine if you need to be tested for COVID-19.</string>
+    <string name="bad_result_text_emp">Please call your healthcare provider or use one of the free Symptom Checkers offered by local healthcare providers and the State of Wisconsin who will connect you to medical personnel. If you answered YES to any of the above symptoms, it is the responsibility of the employee to go home, self-quarantine and/or inform their supervisor/human resources of the need to follow up with their primary care provider.</string>
+
+    <string name="mayo_clinic_link"><u>Mayo Clinic COVID-19 Self-Assessment Tool</u></string>
+    <!--    https://www.mayoclinic.org/covid-19-self-assessment-tool-->
+    <string name="wisc_health_conn_link"><u>Wisconsin Health Connect link</u></string>
+    <!--    https://www.wihealthconnect.com/-->
+    <string name="adv_health_link"><u>Advocate-Aurora Health Symptom Checker</u></string>
+    <!--    https://www.advocateaurorahealth.org/coronavirus-disease-2019/#symptomchecker-->
+    <string name="acen_health_link"><u>Ascension Healthcare</u></string>
+    <!--    https://healthcare.ascension.org/covid-19-->
+    <string name="froe_health_link"><u>Froedtert Health</u></string>
+    <string name="rr_q2">Do you have any of the following symptoms?\n\t• Cough (persistent &amp; productive)\n\t• Shortness of breath or difficulty breathing\n\t• Fever\n\t• Chills\n\t• Muscle pain\n\t• Sore throat\n\t• New loss of taste or smell\n\t• Other respiratory symptoms (sneezing, wheezing &amp; congestion)\n\t• Gastrointestinal symptoms (nausea, vomiting, diarrhea)</string>
+    <string name="login">Login!</string>
+    <!--    https://froedtert.buoyhealth.com/symptom-checker/-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="lab_equipment_url">
+        <item>https://www.uwp.edu/customcf/xml/getcomputerlabs.cfm</item>
+        <item>https://www.uwp.edu/customcf/xml/getcomputerlabequipment.cfm</item>
+    </string-array>
+
+
+</resources>

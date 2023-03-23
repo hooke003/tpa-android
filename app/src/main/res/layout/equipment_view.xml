@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/equipment_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:id="@+id/equipment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginStart="25dp"
+    android:text="Equipment:"
+    android:textColor="@color/colorPrimary"
+    android:textSize="15dp" />
+
+    <TextView
+    android:id="@+id/lab_equipment"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:text="EQUIPMENT"
+    android:textColor="@color/colorPrimary"
+    android:textSize="15dp" />
+    </LinearLayout>
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_below="@+id/equipment_layout"/>
+
+</LinearLayout>

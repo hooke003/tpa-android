@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/equipment_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/equipment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_marginStart="25dp"
+            android:text="Equipment:"
+            android:textColor="#228B22"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/lblListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:layout_marginLeft="10dp"
+            android:text="EQUIPMENT"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:title="@string/Home"
+            android:icon="@drawable/ic_white_home"/>
+        <item
+            android:id="@+id/newsFragment"
+            android:title="@string/News"
+            android:icon="@drawable/ic_news"/>
+        <item
+            android:id="@+id/eventFragment"
+            android:title="@string/Event"
+            android:icon="@drawable/ic_events"/>
+        <item
+            android:id="@+id/labFragment"
+            android:title="@string/Lab"
+            android:icon="@drawable/ic_cplab"/>
+        <item
+            android:id="@+id/mainMap"
+            android:title="@string/Map"
+            android:icon="@drawable/ic_map"/>
+        <item
+            android:id="@+id/radioFragment"
+            android:title="@string/Radio"
+            android:icon="@drawable/ic_radio"/>
+        <item
+            android:id="@+id/aboutFragment"
+            android:title="@string/About"
+            android:icon="@drawable/ic_about"/>
+        <item
+            android:id="@+id/rwNavigation"
+            android:title="Ranger Wellness"
+            android:icon="@drawable/ic_rw_menu_icon"/>
+        <item
+            android:id="@+id/navigation_login_graph"
+            android:title="Login"
+            android:visible="false"/>
+
+    </group>
+</menu>

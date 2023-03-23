@@ -1,0 +1,84 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/light_gray"
+    tools:ignore="ContentDescription"
+    tools:context="appfactory.uwp.edu.parksideapp2.Event.EventFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:focusableInTouchMode="true"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+                <ImageButton
+                    android:id="@+id/back_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/ic_dark_previous_arrow"
+                    android:visibility="invisible"
+                    android:layout_alignParentStart="true"/>
+
+                <TextView
+                    android:id="@+id/date_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="All Events"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <ImageButton
+                    android:id="@+id/next_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:visibility="invisible"
+                    android:background="@drawable/ic_dark_next_arrow"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/event_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/date_layout"
+            android:nestedScrollingEnabled="false"
+            tools:listitem="@layout/event_view"></androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/empty_event_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="No Events"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu_item"
+            android:title="Home" />
+        <item
+            android:id="@+id/housing_menu_item"
+            android:title="Housing" />
+        <item
+            android:id="@+id/dining_menu_item"
+            android:title="Dining" />
+        <item
+            android:id="@+id/bookstore_menu_item"
+            android:title="Bookstore" />
+        <item
+            android:id="@+id/course_delivery_menu_item"
+            android:title="Course Delivery" />
+        <item
+            android:id="@+id/labs_research_menu_item"
+            android:title="Classes, Labs, and Studios" />
+        <item
+            android:id="@+id/community_events_menu_item"
+            android:title="Clubs, Orgs, and Activities" />
+        <item
+            android:id="@+id/library_menu_item"
+            android:title="Library and Study Spaces" />
+        <item
+            android:id="@+id/techbar_menu_item"
+            android:title="TechBar" />
+        <item
+            android:id="@+id/athletics_menu_item"
+            android:title="Recreation, Intramurals, Sports and Activity Center" />
+        <item
+            android:id="@+id/stu_health_menu_item"
+            android:title="Health, Counseling &amp; Disability" />
+    </group>
+</menu>

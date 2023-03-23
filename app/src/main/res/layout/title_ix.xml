@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eef0f0"
+    >
+
+    <TextView
+        android:id="@+id/titleixTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is Title IX?"
+        android:textSize="22sp"
+        android:fontFamily="HelveticaNeue"
+        android:textColor="#287e52"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleixDefinition1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title IX of the education amendments of 1973 is a federal law that prohibits sex discrimination in education"
+        android:textSize="16sp"
+        android:fontFamily="HelveticaNeue"
+        android:textColor="#287e52"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@id/titleixTitle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/titleixDefinition2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It covers forms of sexual misconduct which includes sex discrimination, sexual harassment, stalking, dating/relationship violence, and assault. It reads:"
+        android:textSize="16sp"
+        android:fontFamily="HelveticaNeue"
+        android:textColor="#287e52"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@id/titleixDefinition1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/titleixBody1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="HelveticaNeue"
+        android:text="No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under an education program or activity receiving Federal financial assistance."
+        android:textSize="17sp"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleixDefinition2" />
+
+    <TextView
+        android:id="@+id/titleixCitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="HelveticaNeue"
+        android:text="-Legal Citation: TItle IX of the Education Amendments of 1972, and its implementing regulation at 34 C.F.R Part 106 (Title IX)"
+        android:textSize="12sp"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleixBody1" />
+
+    <TextView
+        android:id="@+id/titleixAdditional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Information"
+        android:textSize="22sp"
+        android:fontFamily="HelveticaNeue"
+        android:textColor="#287e52"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@id/titleixCitation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/titleixBody2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Additional information can be found at www.uwp.edu/titleix or by contacting the UW-Parkside Title IX Coordinator at titleix@uwp.edu or 262-595-2239"
+        android:textSize="16sp"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleixAdditional" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

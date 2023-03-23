@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/RWDashboardFragment"
+        android:icon="@drawable/ic_white_home"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/RWWorkoutLogFragment"
+        android:title="Workout Log"
+        android:icon="@drawable/ic_white_home"/>
+
+    <item
+        android:id="@+id/RWEventListFragment"
+        android:title="Events"
+        android:icon="@drawable/ic_white_home"/>
+
+    <item
+        android:id="@+id/RWProfileFragment"
+        android:title="Profile"
+        android:icon="@drawable/ic_white_home"/>
+
+</menu>

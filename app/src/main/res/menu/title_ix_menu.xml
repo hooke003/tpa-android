@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/titleIXHome"
+        android:title="Home"
+        android:icon="@drawable/ic_titleix_home"/>
+    <item
+        android:id="@+id/titleIXReporting"
+        android:title="Reporting"
+        android:icon="@drawable/ic_titleix_reporting"/>
+    <item
+        android:id="@+id/titleIXResources"
+        android:title="Resources"
+        android:icon="@drawable/ic_titleix_resources"/>
+</menu>

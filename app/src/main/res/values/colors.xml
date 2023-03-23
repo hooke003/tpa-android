@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>#679e42
+
+    <!--Main Color-->
+    <color name="colorPrimaryDark">#01542C</color>
+    <color name="colorPrimary">#016836</color>
+    <color name="colorAccent">#C9602C</color>
+
+
+
+    <color name="bright_green">#72A84F</color>
+    <color name="text_green">#669B63</color>
+    <color name="orange">#c9602c</color>
+    <color name="faded_orange">#e5a586</color>
+    <color name="dark_red">#9d162e</color>
+    <color name="dark_blue">#003a5c</color>
+    <color name="dark_trans_blue">#a6003a5c</color>
+    <color name="light_gray">#e9e9eaea</color>
+    <color name="dark_trans_green">#6D018646</color>
+    <color name="light_trans_gray">#73fffefe</color>
+    <color name="trans_black">#813d3b3b</color>
+    <color name="dark_gray">#bf848484</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="updateCardGreen">#327A50</color>
+    <color name="updateCardOrange">#CD7346</color>
+
+    <color name="currentPhaseOne">#c7602c</color>
+    <color name="currentPhaseTwo">#ffde17</color>
+    <color name="currentPhaseThree">#71a84f</color>
+
+    <!--Regents' Color-->
+    <color name="layout_light_gray">#73c9c9c9</color>
+
+    <!--NavigationView's Color-->
+    <color name="icon_label_color">#202020</color>
+    <color name="covid_orange">#c7602c</color>
+    <color name="covid_yellow">#ffde17</color>
+    <color name="covid_green">#71a84f</color>
+    <color name="disable_foreground_grey">#42221f1f</color>
+    <color name="disable_thumb_grey">#1c000000</color>
+    <color name="enable_thumb_green">#46bdbf</color>
+    <color name="landingMapCardView">#9F0E2D</color>
+    <color name="landingRWCardView">#114835</color>
+    <color name="landingNewsCardView">#71a74f
+    </color>
+    <color name="landingNavigateCardView">#0071CF</color>
+    <color name="landingIndoorNavCardView">#71a74f</color>
+    <color name="landingEventsCardView">#016936</color>
+    <color name="landingeAccountsCardView">#CC0131</color>
+    <color name="landingComputerLabsCardView">#003A5C</color>
+    <color name="landingRRCardView">#C7602D</color>
+    <color name="landingTitleIXCardView">#016936</color>
+
+    <color name="TitleIXBackground">#eef0f0</color>
+    <color name="TitleIXTitle">#287e52</color>
+
+
+
+
+</resources>

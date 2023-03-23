@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title_ix_navigation"
+    app:startDestination="@id/titleIXHome">
+    <fragment
+        android:id="@+id/titleIXHome"
+        android:name="appfactory.uwp.edu.parksideapp2.TitleIX.TitleIXHome"
+        android:label="fragment_title_ix_home"
+        tools:layout="@layout/fragment_title_ix_home" />
+    <fragment
+        android:id="@+id/titleIXReporting"
+        android:name="appfactory.uwp.edu.parksideapp2.TitleIX.TitleIXReporting"
+        android:label="fragment_title_ix_reporting"
+        tools:layout="@layout/fragment_title_ix_reporting" />
+    <fragment
+        android:id="@+id/titleIXResources"
+        android:name="appfactory.uwp.edu.parksideapp2.TitleIX.TitleIXResources"
+        android:label="fragment_title_ix_resources"
+        tools:layout="@layout/fragment_title_ix_resources" />
+</navigation>

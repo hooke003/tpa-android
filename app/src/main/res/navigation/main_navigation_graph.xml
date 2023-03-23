@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/tpa2LandingFragment">
+
+    <fragment
+        android:id="@+id/tpa2LandingFragment"
+        android:name="appfactory.uwp.edu.parksideapp2.tpa2.TPA2LandingFragment"
+        tools:layout="@layout/fragment_tpa2_landing">
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_newsFragment"
+            app:destination="@id/newsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_eventFragment"
+            app:destination="@id/eventFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_mainMap"
+            app:destination="@id/mainMap"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_radioFragment"
+            app:destination="@id/radioFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_labFragment"
+            app:destination="@id/labFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_rwNavigation"
+            app:destination="@id/rwNavigation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_tpa2LandingFragment_to_tpa2ProfileFragment"
+            app:destination="@id/tpa2ProfileFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/tpa2ProfileFragment"
+        android:name="appfactory.uwp.edu.parksideapp2.tpa2.user.settings.TPA2SettingsFragment"
+        tools:layout="@layout/fragment_tpa2_update_profile">
+
+        <action
+            android:id="@+id/action_tpa2ProfileFragment_to_tpa2LandingFragment"
+            app:destination="@id/tpa2LandingFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_tpa2ProfileFragment_to_tpa2ChangePassword"
+            app:destination="@id/tpa2ChangePassword"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/tpa2ChangePassword"
+        android:name="appfactory.uwp.edu.parksideapp2.tpa2.user.settings.TPA2ChangePasswordFragment"
+        tools:layout="@layout/fragment_tpa2_change_password">
+
+        <action
+            android:id="@+id/action_tpa2ChangePassword_to_tpa2ProfileFragment"
+            app:destination="@id/tpa2ProfileFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="appfactory.uwp.edu.parksideapp2.News.NewsFragment"
+        android:label="Parkside News"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="appfactory.uwp.edu.parksideapp2.Event.EventFragment"
+        android:label="Campus Events"
+        tools:layout="@layout/fragment_event" />
+
+    <fragment
+        android:id="@+id/mainMap"
+        android:name="appfactory.uwp.edu.parksideapp2.Map.MainMap"
+        android:label="Campus Map"
+        tools:layout="@layout/main_map" />
+
+    <fragment
+        android:id="@+id/radioFragment"
+        android:name="appfactory.uwp.edu.parksideapp2.Radio.RadioFragment"
+        android:label="WGTD Online"
+        tools:layout="@layout/fragment_radio" />
+
+    <fragment
+        android:id="@+id/labFragment"
+        android:name="appfactory.uwp.edu.parksideapp2.ComputerLab.LabFragment"
+        android:label="Computer Labs"
+        tools:layout="@layout/fragment_lab" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="appfactory.uwp.edu.parksideapp2.About.AboutFragment"
+        android:label="About the App"
+        tools:layout="@layout/fragment_about" />
+
+    <navigation
+        android:id="@+id/navigation_login_graph"
+        app:startDestination="@id/loginFragment">
+        <fragment
+            android:id="@+id/loginFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.login.LoginFragment"
+            tools:layout="@layout/fragment_login">
+            <action
+                android:id="@+id/action_loginFragment_to_registerFragment"
+                app:destination="@id/registerFragment"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            <action
+                android:id="@+id/action_loginFragment_to_RWDashboardFragment2"
+                app:destination="@id/RWDashboardFragment2" />
+            <action
+                android:id="@+id/action_loginFragment_to_passwordResetFragment"
+                app:destination="@id/passwordResetFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/registerFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.login.RegisterFragment"
+            tools:layout="@layout/fragment_register" />
+        <action
+            android:id="@+id/action_navigation_login_graph_pop"
+            app:popUpTo="@id/navigation_login_graph"
+            app:popUpToInclusive="true" />
+        <fragment
+            android:id="@+id/webViewFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.webView.WebViewFragment"
+            android:label="fragment_web_view"
+            tools:layout="@layout/fragment_web_view" />
+        <action
+            android:id="@+id/action_global_webViewFragment"
+            app:destination="@id/webViewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <fragment
+            android:id="@+id/RWDashboardFragment2"
+            android:name="appfactory.uwp.edu.parksideapp2.ranger_wellness.fragments.RWDashboardFragment"
+            android:label="RWDashboardFragment" />
+        <fragment
+            android:id="@+id/passwordResetFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.login.PasswordResetFragment"
+            android:label="fragment_password_reset"
+            tools:layout="@layout/fragment_password_reset">
+            <action
+                android:id="@+id/action_passwordResetFragment_to_loginFragment"
+                app:destination="@id/loginFragment" />
+        </fragment>
+    </navigation>
+
+    <action
+        android:id="@+id/action_global_navigation_login_graph"
+        app:destination="@id/navigation_login_graph"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    <navigation
+        android:id="@+id/rwNavigation"
+        app:startDestination="@id/RWDashboardFragment">
+        <fragment
+            android:id="@+id/RWEventListFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.ranger_wellness.fragments.RWEventListFragment"
+            android:label="Events"
+            tools:layout="@layout/fragment_rwevent_list" />
+        <fragment
+            android:id="@+id/RWDashboardFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.ranger_wellness.fragments.RWDashboardFragment"
+            android:label="Ranger Wellness"
+            tools:layout="@layout/fragment_rwdashboard">
+            <action
+                android:id="@+id/action_RWDashboardFragment_to_RWEventListFragment"
+                app:destination="@id/RWEventListFragment"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            <action
+                android:id="@+id/action_RWDashboardFragment_to_RWWorkoutLogFragment"
+                app:destination="@id/RWWorkoutLogFragment"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        </fragment>
+        <fragment
+            android:id="@+id/RWWorkoutLogFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.ranger_wellness.fragments.RWWorkoutLogFragment"
+            android:label="Workout Log"
+            tools:layout="@layout/fragment_rwworkout_log" />
+        <fragment
+            android:id="@+id/RWEventDetailFragment"
+            android:name="appfactory.uwp.edu.parksideapp2.ranger_wellness.fragments.RWEventDetailFragment"
+            android:label="Event Details" />
+        <action
+            android:id="@+id/action_global_RWEventDetailFragment"
+            app:destination="@id/RWEventDetailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_global_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </navigation>
+
+    <action
+        android:id="@+id/action_global_rwNavigation"
+        app:destination="@id/rwNavigation" />
+
+    <activity
+        android:id="@+id/newsDetailActivity"
+        android:name="appfactory.uwp.edu.parksideapp2.Detail.NewsDetailActivity"
+        android:label="activity_news_detail"
+        tools:layout="@layout/activity_news_detail" />
+
+    <activity
+        android:id="@+id/RRMainActivity"
+        android:name="appfactory.uwp.edu.parksideapp2.tpa2.auth.TPA2LoginActivity"
+        android:label="RRMainActivity" />
+
+</navigation>

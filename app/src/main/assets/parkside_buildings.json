@@ -1,0 +1,83 @@
+{
+  "building": [
+    {
+      "name": "Student Center",
+      "image_name": "student_center",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.647669,
+      "latitude": -87.855173
+    },
+    {
+      "name": "Sport and Activity Center",
+      "image_name": "sport",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.64253,
+      "latitude": -87.8567
+    },
+    {
+      "name": "Health Center",
+      "image_name": "studenthealth",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.6476,
+      "latitude": -87.84658
+    },
+    {
+      "name": "Talent Hall",
+      "image_name": "tallent",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.64749,
+      "latitude": -87.84753
+    },
+    {
+      "name": "Wyllie Hall",
+      "image_name": "wyllie",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.64546,
+      "latitude": -87.85502
+    },
+    {
+      "name": "Molinaro Hall",
+      "image_name": "molinaro",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.64696,
+      "latitude": -87.85598
+    },
+    {
+      "name": "Ranger Hall",
+      "image_name": "ranger",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.64706,
+      "latitude": -87.85787
+    },
+    {
+      "name": "Greenquist Hall",
+      "image_name": "greenquist",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.646397,
+      "latitude": -87.855553
+    },
+    {
+      "name": "Rita Hall",
+      "image_name": "rita",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.645257,
+      "latitude": -87.856353
+    },
+    {
+      "name": "University Apartment",
+      "image_name": "university_apartments",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.648881,
+      "latitude": -87.857133
+    },
+    {
+      "name": "Pike River Suites",
+      "image_name": "pike_river_suites",
+      "address": "900 Wood Rd, Kenosha, WI 53144",
+      "longitude": 42.648607,
+      "latitude": -87.854778
+    }
+  ]
+}
+
+
